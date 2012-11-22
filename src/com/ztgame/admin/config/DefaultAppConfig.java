@@ -18,6 +18,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @Configuration
 @Import(DataSourceConfig.class)
-@ComponentScan(basePackages = "com.ztgame.springmvc.controller")
+@ComponentScan(basePackages = "com.ztgame.admin.controller")
 public class DefaultAppConfig {
 }
